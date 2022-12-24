@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import chat from  "../../Assets/chat.png"
+import { Widget } from '@typeform/embed-react'
+
 
 import Aboutcard from "./AboutCard";
 import Aboutcardtwo from "./AboutCardtwo";
@@ -141,6 +143,23 @@ function About() {
             
         <Toolstack />
 
+
+        <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Col
+            md={7}
+            style={{
+              justifyContent: "center",
+              paddingTop: "30px",
+              paddingBottom: "50px",
+            }}
+          >
+          
+           <h1 style={{ fontSize: "4rem", paddingBottom: "3rem" }}>Contact Us</h1>
+            <Widget id="K7ZHZI7R" style={{ width: '100%', height:"30rem" }} className="my-form" />
+            
+          </Col>
+        
+        </Row>
       </Container>
     </Container>
   );

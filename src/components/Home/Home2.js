@@ -18,7 +18,7 @@ function Home2() {
              
               <li className="social-icons">
                 <a
-                  href="#"
+                  href="https://twitter.com/WuAngela4"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -28,7 +28,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/company/seepin"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -38,7 +38,8 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/seep_edu_"
+                  target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
@@ -48,7 +49,7 @@ function Home2() {
             </ul>
         </Row>
         <Row>
-          
+        
         </Row>
       </Container>
     </Container>
