@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import chat from  "../../Assets/chat.png"
 import { Widget } from '@typeform/embed-react'
-
-
 import Aboutcard from "./AboutCard";
 import Aboutcardtwo from "./AboutCardtwo";
 import first from "../../Assets/first.png";
@@ -14,6 +12,7 @@ import ai from '../../Assets/ai-screenshot.png'
 import laptopImg from "../../Assets/about.png";
 import QA from "../../Assets/QA.png";
 import Toolstack from "./Toolstack";
+import Alert from 'react-bootstrap/Alert';
 
 function About() {
   return (
@@ -94,8 +93,11 @@ function About() {
               <h1 style={{ paddingBottom: 0}}  className="heading" style={ {textAlign: "left"}}>
               Customized Suggestions 🤟</h1>
                
-              <div style={{ padding: 50, textAlign: "left" }}>
-              <h4>  Our Powerful  Algorithm would give you personalized feedback to help you ace presentation ! </h4>
+              <div style={{ paddingLeft: 50, textAlign: "left" }}>
+              <Alert ><Alert.Link href="https://ai-seep.vercel.app/">Try It Now </Alert.Link> (It is in beta, some unexpected bugs might occur)
+        </Alert> 
+              <h4>  Our Powerful  Algorithm would give you personalized feedback to help you solve the problem ! </h4>
+            
               </div>
             </Col>
 
