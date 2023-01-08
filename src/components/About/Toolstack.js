@@ -19,12 +19,13 @@ function Toolstack() {
         <VscAccount />
        
         <h1> Individual</h1>
-        <h5>0.99 ¥/month</h5>
+        <h5>0 ¥/month</h5>
         <h5>Access to some exercises ❌</h5>
         <h5>10 AI suggestions only ❌ </h5>
       </Col>
       <Col xs={3} md={4} className="tech-icons">
         <IoPeopleSharp />
+        
         <h1>Premium</h1>
 
         <h5>3 ¥/month</h5>
