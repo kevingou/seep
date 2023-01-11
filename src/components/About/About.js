@@ -7,6 +7,7 @@ import Aboutcard from "./AboutCard";
 import Aboutcardtwo from "./AboutCardtwo";
 import first from "../../Assets/first.png";
 import huge from "../../Assets/huge.png";
+import app from "../../Assets/app.png";
 import skills from "../../Assets/skills.png";
 import ai from '../../Assets/ai-screenshot.png'
 import laptopImg from "../../Assets/about.png";
@@ -58,7 +59,7 @@ function About() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-               src={first}
+               src={app}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
