@@ -8,11 +8,9 @@ function AboutCardtwo() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-             We help people enhance  <span className="purple">soft skills </span>
-            ranging from Critical Thinking, Presentation , Time-Management, Communication and much more ! 💪
-   
-            
-            
+          We help people holistically enhance <span className="purple">soft skills, </span>
+          such as critical thinking, presentation, time management, 
+          and communication, without getting bored ! 💪 
           </p>
           <ul>
            

@@ -40,7 +40,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "4rem", paddingBottom: "3rem" }}>
-           What Seep <strong className="purple">Offer</strong>
+           What Seep <strong className="purple">Offer</strong> 🎉
             </h1>
             <Aboutcardtwo />
           </Col>
