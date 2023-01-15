@@ -72,7 +72,7 @@ function NavBar() {
 
             <Nav.Item>
            
-            <Button href="video"  size="lg">Demo</Button>
+            <Button href="https://youtu.be/VF-wY1sHgB0"  size="lg">Demo</Button>
             </Nav.Item>
            
           
