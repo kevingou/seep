@@ -10,7 +10,7 @@ function AboutCardtwo() {
           <p style={{ textAlign: "justify" }}>
           We help people holistically enhance <span className="purple">soft skills, </span>
           such as critical thinking, presentation, time management, 
-          and communication, without getting bored ! 💪 
+          and communication, without getting bored 
           </p>
           <ul>
            
